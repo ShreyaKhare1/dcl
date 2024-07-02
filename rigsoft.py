@@ -15,4 +15,4 @@ def displacement():
 @app.route('/main_help')
 def main_help():
   return render_template('main_help.html')
-app.run(debug=True)
+app.run(debug=True,host='0.0.0.0')
